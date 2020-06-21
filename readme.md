@@ -1,5 +1,7 @@
 # Nixops ile GoogleCloud Deployment örneği
 
+Etkinlik videosuna şuradan ulaşabilirsiniz: [https://youtu.be/VIBPfXmkvr8](https://youtu.be/VIBPfXmkvr8)
+
 İlk olarak google cloud developer console üzerinden hizmet hesabı (service account) oluşturmalısınız.
 
 Daha sonra bu hizmet hesabına bir p12 formatında gizli anahtar tanımlayıp bunu indirmelisiniz.
@@ -30,4 +32,5 @@ time sync error fix
 https://github.com/NixOS/nixpkgs/issues/31540
 
 `rm -rf {/var/lib/systemd/timesync,/var/lib/private/systemd/timesync}`
+
 
